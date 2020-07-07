@@ -111,15 +111,11 @@
                                             <input type="text" class="form-control">
                                             <span class="help-block">Ini Adalah Form Untuk Mengganti Deskripsi Di Products and Services</span>
                                         </div>
-                                    </div>
-                                    <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                                        <!-- /form-panel -->
                                 </form>
                             </div>
-                            <!-- /form-panel -->
-                            </form>
                         </div>
-                    </div>
-                    <!-- col-lg-12-->
+                        <!-- col-lg-12-->
                     </div>
                     <!-- INPUT MESSAGES -->
                     <div class="row mt">
@@ -127,29 +123,39 @@
                             <div class="form-panel">
                                 <h4 class="mb"><i class="fa fa-angle-right"></i> Input Kategori Produk dan service</h4>
                                 <form class="form-horizontal tasi-form" method="get">
-                                    <div class="form-group has-success">
-                                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Input with success</label>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Judul Kategori</label>
                                         <div class="col-lg-10">
                                             <input type="text" class="form-control" id="inputSuccess">
                                         </div>
                                     </div>
-                                    <div class="form-group has-warning">
-                                        <label class="col-sm-2 control-label col-lg-2" for="inputWarning">Input with warning</label>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label col-lg-2" for="inputWarning">Isi Kategori</label>
                                         <div class="col-lg-10">
                                             <input type="text" class="form-control" id="inputWarning">
                                         </div>
                                     </div>
-                                    <div class="form-group has-error">
-                                        <label class="col-sm-2 control-label col-lg-2" for="inputError">Input with error</label>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label col-lg-2" for="inputError">Isi Kategori</label>
                                         <div class="col-lg-10">
                                             <input type="text" class="form-control" id="inputError">
                                         </div>
                                     </div>
+                                    <div class="form-group">
+                                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Isi Kategori</label>
+                                        <div class="col-lg-10">
+                                            <input type="text" class="form-control" id="inputSuccess">
+                                        </div>
+                                    </div>
                                 </form>
                             </div>
-                            <!-- /form-panel -->
+                            <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                            </form>
                         </div>
-                        <!-- /col-lg-12 -->
+                    </div>
+                    <!-- /form-panel -->
+                    </div>
+                    <!-- /col-lg-12 -->
                     </div>
                     <!-- /row -->
                     <!-- INPUT MESSAGES -->
