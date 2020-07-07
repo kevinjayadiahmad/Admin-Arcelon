@@ -121,6 +121,38 @@
                     </div>
                     <!-- col-lg-12-->
                     </div>
+                    <!-- INPUT MESSAGES -->
+                    <div class="row mt">
+                        <div class="col-lg-12">
+                            <div class="form-panel">
+                                <h4 class="mb"><i class="fa fa-angle-right"></i> Input Kategori Produk dan service</h4>
+                                <form class="form-horizontal tasi-form" method="get">
+                                    <div class="form-group has-success">
+                                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Input with success</label>
+                                        <div class="col-lg-10">
+                                            <input type="text" class="form-control" id="inputSuccess">
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-warning">
+                                        <label class="col-sm-2 control-label col-lg-2" for="inputWarning">Input with warning</label>
+                                        <div class="col-lg-10">
+                                            <input type="text" class="form-control" id="inputWarning">
+                                        </div>
+                                    </div>
+                                    <div class="form-group has-error">
+                                        <label class="col-sm-2 control-label col-lg-2" for="inputError">Input with error</label>
+                                        <div class="col-lg-10">
+                                            <input type="text" class="form-control" id="inputError">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- /form-panel -->
+                        </div>
+                        <!-- /col-lg-12 -->
+                    </div>
+                    <!-- /row -->
+                    <!-- INPUT MESSAGES -->
                 </section>
             </section>
         </section>
