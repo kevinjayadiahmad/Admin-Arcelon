@@ -58,7 +58,7 @@
     </a>
   </li>
   <li class="sub-menu">
-    <a href="?p=tabelecsharga">
+    <a href="tabel-ecs-harga.php">
       <i class="fa fa-th"></i>
       <span>Tabel ECS Harga</span>
     </a>
