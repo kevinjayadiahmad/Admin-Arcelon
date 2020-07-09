@@ -64,7 +64,7 @@
     </a>
   </li>
   <li class="sub-menu">
-    <a href="?p=contactus">
+    <a href="contact-us.php">
       <i class="fa fa-th"></i>
       <span>Contact Us</span>
     </a>
