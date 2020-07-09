@@ -91,7 +91,7 @@
         <section id="main-content">
             <section class="wrapper">
                 <section class="wrapper">
-                    <h3><i class="fa fa-angle-right"></i> Form Jumbotron Main Page Home</h3>
+                    <h3><i class="fa fa-angle-right"></i> Form ECS Harga</h3>
                     <!-- BASIC FORM ELELEMNTS -->
                     <div class="row mt">
                         <div class="col-lg-12">
@@ -102,35 +102,74 @@
                                         <label class="col-sm-2 col-sm-2 control-label">Tittle</label>
                                         <div class="col-sm-10">
                                             <input type="text" class="form-control">
-                                            <span class="help-block">Ini Adalah Form Untuk Mengganti Tittle Di Jumbotron Slide Pertama</span>
+                                            <span class="help-block">Ini Adalah Form Untuk Mengganti Tittle Di Ecs Harga</span>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <label class="col-sm-2 col-sm-2 control-label">Deskripsi</label>
                                         <div class="col-sm-10">
                                             <input type="text" class="form-control">
-                                            <span class="help-block">Ini Adalah Form Untuk Mengganti Deskripsi Di Jumbotron Slide Pertama</span>
+                                            <span class="help-block">Ini Adalah Form Untuk Mengganti Deskripsi Di Ecs Harga</span>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label class="control-label col-md-3">Jumbotron Photo</label>
-                                        <div class="controls col-md-9">
-                                            <div class="fileupload fileupload-new" data-provides="fileupload">
-                                                <span class="btn btn-theme02 btn-file">
-                                                    <span class="fileupload-new"><i class="fa fa-paperclip"></i> Select file</span>
-                                                    <input type="file" class="default" />
-                                                </span>
-                                                <span class="fileupload-preview" style="margin-left:5px;"></span>
-                                                <a href="advanced_form_components.html#" class="close fileupload-exists" data-dismiss="fileupload" style="float: none; margin-left:5px;"></a>
+                                    <div class="row mt">
+                                        <div class="col-lg-12">
+                                            <div class="form-panel">
+                                                <h4 class="mb"><i class="fa fa-angle-right"></i> Input Post Card Ecs Harga</h4>
+                                                <form class="form-horizontal tasi-form" method="get">
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Harga Ecs</label>
+                                                        <div class="col-lg-10">
+                                                            <input type="text" class="form-control" id="inputSuccess">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label col-lg-2" for="inputWarning">Tittle Harga</label>
+                                                        <div class="col-lg-10">
+                                                            <input type="text" class="form-control" id="inputWarning">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label col-lg-2" for="inputError">Deskripsi Tittle Harga</label>
+                                                        <div class="col-lg-10">
+                                                            <input type="text" class="form-control" id="inputError">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Spesifikasi Ecs</label>
+                                                        <div class="col-lg-10">
+                                                            <input type="text" class="form-control" id="inputSuccess">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Spesifikasi Ecs</label>
+                                                        <div class="col-lg-10">
+                                                            <input type="text" class="form-control" id="inputSuccess">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Spesifikasi Ecs</label>
+                                                        <div class="col-lg-10">
+                                                            <input type="text" class="form-control" id="inputSuccess">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="col-sm-2 control-label col-lg-2" for="inputSuccess">Spesifikasi Ecs</label>
+                                                        <div class="col-lg-10">
+                                                            <input type="text" class="form-control" id="inputSuccess">
+                                                        </div>
+                                                    </div>
+                                                </form>
                                             </div>
-                                        </div>
-                                    </div>
-                                    <button type="button" class="btn btn-primary btn-lg">Submit</button>
                                 </form>
                             </div>
-                            <!-- /form-panel -->
-                            </form>
                         </div>
+                        <button type="button" class="btn btn-primary btn-lg">Submit</button>
+                        </form>
+                    </div>
+                    <!-- /form-panel -->
+                    </form>
+                    </div>
                     </div>
                     <!-- col-lg-12-->
                     </div>
