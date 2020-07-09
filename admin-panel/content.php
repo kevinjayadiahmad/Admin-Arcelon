@@ -37,7 +37,6 @@
         <section class="wrapper site-min-height">
             <div class="row mt">
                 <div class="col-lg-12">
-                    <h1>"Welcome To Arcelon Admin Main Page"</h1>
                 </div>
             </div>
         </section>
