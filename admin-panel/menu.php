@@ -40,6 +40,12 @@
     </a>
   </li>
   <li>
+    <a href="halaman-json.php">
+      <i class="fa fa-th"></i>
+      <span>Halaman Menampilkan Json</span>
+    </a>
+  </li>
+  <li>
     <a href="jumbotron-main-page.php">
       <i class="fa fa-th"></i>
       <span>Jumbotron Main Page Home</span>
