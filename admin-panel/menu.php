@@ -40,9 +40,9 @@
     </a>
   </li>
   <li>
-    <a href="halaman-json.php">
+    <a href="input-json.php">
       <i class="fa fa-th"></i>
-      <span>Halaman Menampilkan Json</span>
+      <span>Input File Json</span>
     </a>
   </li>
   <li>
