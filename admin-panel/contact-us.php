@@ -48,14 +48,6 @@
             <div class="nav notify-row" id="top_menu">
                 <!--  notification start -->
                 <ul class="nav top-menu">
-                    <!-- settings start -->
-                    <!-- settings end -->
-                    <!-- inbox dropdown start-->
-
-                    <!-- inbox dropdown end -->
-                    <!-- notification dropdown start-->
-
-                    <!-- notification dropdown end -->
                 </ul>
                 <!--  notification end -->
             </div>
