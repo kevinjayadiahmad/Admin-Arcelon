@@ -1,3 +1,11 @@
+<?php
+//koneksi ke database
+$conn = mysqli_connect("localhost", "root", "", "adminarcelon");
+
+//ambil data dari tabel mahasiswa
+$result = mysqli_query($conn, "SELECT * FROM jumbotron-main-page-home");
+var_dump($result);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,18 +41,28 @@
 </head>
 
 <body>
-    <section id="main-content">
-        <section class="wrapper site-min-height">
-            <div class="row mt">
-                <div class="col-lg-12">
-                </div>
-            </div>
-        </section>
-        <!-- /wrapper -->
-    </section>
-    <!-- /MAIN CONTENT -->
-    <!--main content end-->
-    <div class="credits">
+    <h3><i class="fa fa-angle-right"></i> Form Jumbotron Main Page Home</h3>
+    <table border="1" cellpading="10" cellspacing="0">
+        <table class="table table-striped table-bordered">
+            <tr>
+                <th>No.</th>
+                <th>Aksi</th>
+                <th>Gambar</th>
+                <th>Tittle</th>
+                <th>Deskripsi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="" class="glyphicon glyphicon-plus p-2 text-white rounded" data-toggle="tooltip" title="Edit">Ubah</a>
+                    <a href="" onclick="return confirm ('Anda Yakin?');" class="glyphicon glyphicon-trash p-2 text-white rounded" data-toggle="
+        			tooltip" title="Delete">Hapus</a>
+                </td>
+                <td><img src="img/2.png" width="50"></td>
+                <td>ApsaraDB For RDS</td>
+                <td>Cut down latency and deploy globally on Alibaba Cloud’s international network of 18 data center regions and 42 availability zones, including access to China under one single global account.</td>
+            </tr>
+        </table>
 </body>
 
 </html>
