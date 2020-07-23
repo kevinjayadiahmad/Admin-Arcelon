@@ -2,7 +2,7 @@
 //koneksi ke database
 $conn = mysqli_connect("localhost", "root", "", "adminarcelon");
 
-//ambil data dari tabel mahasiswa
+//ambil data dari tabel mainpagehome
 function query($query)
 {
     global $conn;
