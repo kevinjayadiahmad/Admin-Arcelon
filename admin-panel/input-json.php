@@ -127,13 +127,35 @@
                         </div>
                         <button type="button" class="btn btn-primary btn-lg">Submit</button>
                         <?php
-                        $dbh = new PDO('mysql:host=localhost;dbname=latihan-memanggiljson', 'root', '');
-                        $db = $dbh->prepare('SELECT * FROM user ');
-                        $db->execute();
-                        $user = $db->fetchALL(PDO::FETCH_ASSOC);
-                        $data = json_encode($user);
-                        echo $data;
+                        //$dbh = new PDO('mysql:host=localhost;dbname=latihan-memanggiljson', 'root', '');
+                        //$db = $dbh->prepare('SELECT * FROM user ');
+                        //$db->execute();
+                        //$user = $db->fetchALL(PDO::FETCH_ASSOC);
+                        //$data = json_encode($user);
+                        //echo $data;
+                        //
                         ?>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <b>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </b>
                 </section>
             </section>
         </section>
