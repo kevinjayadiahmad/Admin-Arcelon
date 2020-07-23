@@ -1,10 +1,7 @@
 <?php
-//koneksi ke database
-$conn = mysqli_connect("localhost", "root", "", "adminarcelon");
+require 'function.php';
 
-//ambil data dari tabel mahasiswa
-$result = mysqli_query($conn, "SELECT * FROM jumbotron-main-page-home");
-var_dump($result);
+$arcelon = query("SELECT * FROM `mainpagehome`");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,17 +48,21 @@ var_dump($result);
                 <th>Tittle</th>
                 <th>Deskripsi</th>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>
-                    <a href="" class="glyphicon glyphicon-plus p-2 text-white rounded" data-toggle="tooltip" title="Edit">Ubah</a>
-                    <a href="" onclick="return confirm ('Anda Yakin?');" class="glyphicon glyphicon-trash p-2 text-white rounded" data-toggle="
+            <?php $i = 1; ?>
+            <?php foreach ($arcelon as $row) : ?>
+                <tr>
+                    <td><?= $i ?></td>
+                    <td>
+                        <a href="" class="glyphicon glyphicon-plus p-2 text-white rounded" data-toggle="tooltip" title="Edit">Ubah</a>
+                        <a href="" onclick="return confirm ('Anda Yakin?');" class="glyphicon glyphicon-trash p-2 text-white rounded" data-toggle="
         			tooltip" title="Delete">Hapus</a>
-                </td>
-                <td><img src="img/2.png" width="50"></td>
-                <td>ApsaraDB For RDS</td>
-                <td>Cut down latency and deploy globally on Alibaba Cloud’s international network of 18 data center regions and 42 availability zones, including access to China under one single global account.</td>
-            </tr>
+                    </td>
+                    <td><img src="img/<?php echo  $row["gambar"]; ?>" width="50"></td>
+                    <td><?= $row["tittle"]; ?></td>
+                    <td><?= $row["deskripsi"]; ?></td>
+                </tr>
+                <?php $i++; ?>
+            <?php endforeach; ?>
         </table>
 </body>
 
