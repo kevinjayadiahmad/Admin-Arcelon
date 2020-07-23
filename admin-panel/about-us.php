@@ -45,11 +45,6 @@
             <!--logo start-->
             <a href="index.php" class="logo"><b>ARC<span>ELON</span></b></a>
             <!--logo end-->
-            <div class="nav notify-row" id="top_menu">
-                <!--  notification start -->
-                <ul class="nav top-menu">
-                </ul>
-                <!--  notification end -->
             </div>
             <div class="top-menu">
                 <ul class="nav pull-right top-menu">
